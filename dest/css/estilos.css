@@ -59,11 +59,10 @@ body {
 }
 
 
-#header{
+#header {
 	background-image:url(assets/img/portada.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:center;
+	
 }
 
  
