@@ -2,11 +2,9 @@
 *{box-sizing: border-box;}
 
 /* acaempieza el codigo */
-
-body {
-	background-color: red;
+body{
+	font-family: 'Source Sans Pro', sans-serif;
 }
-
 
 #header {
 	background-image:url(../../assets/img/portada.png);
@@ -15,39 +13,90 @@ body {
 	height: 100%;
 	color: white;
 }
+
+#header p {
+	padding: 0 10vw;
+	margin-bottom: 14vw;
+}
+
+.menu-desktop li {
+	display: none;
+}
+.nav{
+	padding-top:15vw;
+}
 .hamburguer{
-	width: 100px;
-	height:100px;
-	margin-top: 85px;
 	float: right;
 	display: block;
-	padding: 7px;
+	padding: 0 8vw;
 }
 
 .lineas{
-	height: 7px;
-	width: 33px;
+	height: 1.3vw;
+	width: 8vw;
 	background-color: #ffffff;
-	margin: 5px 0px 2px 0px;
+	margin: 1.3vw;
 	border-radius: 15px;
 }
 
 .logo{
-	max-width: 25%;
-	margin-top: 85px;
+	max-width: 45%;
 }
 
  h1 {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 100px;
+    font-size: 13vw;
+    font-weight: lighter;
+    padding-left: 12vw;
+    margin: 12vw 0 0 0;
+    line-height: 1.2;
+}
+h2{
+	font-weight: 700;
+	font-size: 8vw;
+	line-height: 1.2;
+	padding: 0 6vw;
+}
+
+h3{
+	text-align: center;
+	margin: 0 0 22vw 0;
 	font-weight: lighter;
-	padding-left: 80px;
+	font-size: 3.7vw;
+}
+
+p{
+	font-size: 5.5vw;
+	font-weight: 400;
+	color: #404042;
+	padding: 0 6vw;
+	margin-bottom: 6vw;
+}
+
+span{
+	font-weight: bold;
 }
 
 
+/*Aca empieza el slidechow*/
 
-.menu-desktop li {
-	display: none;
+.caja-item{
+	background: #00A486;
+	padding: 10vw;
+}
+
+.caja-item img{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.caja-item p{
+	color: #ffffff;
+	font-size: 5vw;
+	text-align: center;
+	margin-bottom: 0;
 }
 
  
