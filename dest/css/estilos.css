@@ -56,6 +56,7 @@ h2{
 	font-size: 8vw;
 	line-height: 1.2;
 	padding: 0 6vw;
+	margin-top: 0;
 }
 
 h3{
@@ -99,10 +100,42 @@ span{
 	margin-bottom: 0;
 }
 
-.flechas{
-	
+.flechas img{
+	width: 6vw;
+    margin: 0 4vw 6vw 6vw;
 }
- 
+
+h4{
+	color: #00A486;
+	font-weight: lighter;
+	padding: 0 6vw;
+	margin: 17vw 0 0 0;
+	font-size: 7vw;
+}
+
+.equipo{
+	position: relative;
+	width: 100%;
+	margin:0;
+}
+
+.equipo figcaption {
+  background-color: rgba(30, 44, 44, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ .equipo p{
+ 	color: #ffffff;
+ 	font-weight: 400;
+ 	margin: 4vw 2vw;
+ }
+#footer{
+	background-color: #00A486;
+	height: 60vw;
+	margin-top: 20vw;
+}
  /*	
  @media screen and (max-width: 1000px){
 selector{
