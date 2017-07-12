@@ -12,23 +12,21 @@ body{
 	background-size: 100%;
 	height: 100%;
 	color: white;
+	padding: 15vw 8vw 0 8vw;
 }
 
 #header p {
-	padding: 0 10vw;
 	margin-bottom: 14vw;
+	padding: 0;
 }
 
 .menu-desktop li {
 	display: none;
 }
-.nav{
-	padding-top:15vw;
-}
-.hamburguer{
+
+.hamburger{
 	float: right;
 	display: block;
-	padding: 0 8vw;
 }
 
 .lineas{
@@ -40,14 +38,14 @@ body{
 }
 
 .logo{
-	max-width: 45%;
-}
+	width: 24vw;
+ }
+
 
  h1 {
 	font-family: 'Abril Fatface', cursive;
-    font-size: 13vw;
+    font-size: 14vw;
     font-weight: lighter;
-    padding-left: 12vw;
     margin: 12vw 0 0 0;
     line-height: 1.2;
 }
@@ -60,18 +58,17 @@ h2{
 }
 
 h3{
-	text-align: center;
 	margin: 0 0 22vw 0;
 	font-weight: lighter;
-	font-size: 3.7vw;
+	font-size: 4vw;
 }
 
 p{
 	font-size: 5.5vw;
 	font-weight: 400;
 	color: #404042;
-	padding: 0 6vw;
 	margin-bottom: 6vw;
+	padding: 0 6vw;
 }
 
 span{
@@ -80,20 +77,23 @@ span{
 
 
 /*Aca empieza el slidechow*/
+.caja-item-blanca{
+	display: none;
+}
 
-.caja-item{
+.caja-item-verde{
 	background: #00A486;
 	padding: 10vw;
 }
 
-.caja-item img{
+.caja-item-verde img{
 	width: 30%;
 	display: block;
 	margin: 0 auto;
 
 }
 
-.caja-item p{
+.caja-item-verde p{
 	color: #ffffff;
 	font-size: 5vw;
 	text-align: center;
@@ -131,11 +131,46 @@ h4{
  	font-weight: 400;
  	margin: 4vw 2vw;
  }
-#footer{
+footer{
 	background-color: #00A486;
-	height: 60vw;
-	margin-top: 20vw;
+    margin-top: 20vw;
+    text-align: center;
+    padding: 10vw 0 10vw 0;
+    box-shadow: inset 0 3vw 8vw #009277;
 }
+footer p{
+	font-weight: 400;
+    font-size: 9vw;
+    color: #ffffff;
+    margin-top: 9vw;
+}
+footer img{
+	width: 12vw;
+	margin: 2vw;
+}
+
+footer img:last-of-type {
+	display: block;
+	width: 40vw;
+    margin: 5vw auto;
+}
+
+.smalltext p{
+	font-size: 3vw;
+	margin:0;
+}
+
+.smalltext p:last-child{
+	font-size: 4vw;
+	margin-top: 2vw;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #8600ED;
+}
+
  /*	
  @media screen and (max-width: 1000px){
 selector{
