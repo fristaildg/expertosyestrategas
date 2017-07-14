@@ -1,0 +1,164 @@
+@media (min-width: 1270px){
+
+	#header{
+		background-size: 50%;
+		color: #231F20;
+		padding: 50px;
+		display: inline-block;
+		
+	}
+    
+   h1{
+   		display: block;
+	    width: 50%;
+	    font-size: 60px;
+	    float: right;
+	    margin: 30px 13px 5px 13px;
+	    padding-left: 67px;
+   }
+
+   h2{
+		font-size: 35px;
+		padding: 0 60px;
+	}
+
+
+   h3{
+   	    width: 50%;
+	    display: block;
+	    font-size: 19px;
+    	margin: 0 20px 20px;
+	    float: right;
+	    padding-left: 74px;
+	    color: #00A486;
+
+   }
+
+   h4{
+   	font-size: 30px;
+   	padding: 0 60px;
+   	margin: 50px 0 0 0 ;
+   }
+
+   p{
+		font-size: 19px;
+		margin-bottom: 60px;
+		padding: 0 60px;
+
+	}
+
+	.menu-desktop a{
+		color: #231F20;
+		font-weight: 400;
+		font-size: 12px;
+
+	}
+
+	.menu-desktop li{
+		display: inline-block;
+		margin-left: 80px;
+	}
+
+	 #header p{
+	 	width: 50%;
+		display: block;
+	 	color: #231F20;
+	 	font-size: 16px;
+	 	text-align: left;
+	 	float: right;
+	 	padding-left: 56px;
+	 	margin-bottom: 120px;
+	 	padding-right: 30px;
+	 }
+	
+	.logo{
+		width: 130px;
+		
+	}
+
+	
+
+	.caja-item-blanca img {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.caja-item-blanca p{
+		font-size: 15px;
+		padding: 0 25px;
+		margin-bottom: 40px;
+	}
+	
+	.caja-principal {
+		padding: 0 40px;
+	}
+
+	.flechas img{
+		width: 24px;
+	    margin: 0 15px 30px 60px;
+	    padding: 0;
+	}
+	
+	.equipotablet{
+		display: none;
+	}
+
+	.equipo-desktop{
+		display: block;
+	}
+
+	.equipo p{
+	 	color: #ffffff;
+	 	font-weight: 700;
+	 	margin: 7px 0;
+	 	font-size: 15px;
+	 	padding: 0;
+	 	text-align: center;
+ 	}
+
+	footer{
+		padding: 90px 0 50px 0;
+		margin-top: 100px;
+	}
+
+	.footer-iz{
+		padding-left: 60px;
+	}
+	.footer-iz p{
+		font-size: 30px;
+	}
+
+	.footer-iz img{
+		width: 30px;
+		margin: 20px 5px;
+	}
+
+	.footer-der{
+		width: 50%;
+	}
+
+	.footer-der img{
+		width: 150px;
+		margin: 0 50px;
+	}
+
+	.smalltext{
+		width: 100%;
+	}
+
+
+	.smalltext p{
+		font-size: 12px;
+		margin-top: 5px;
+		float: left;
+
+	}
+
+
+	.smalltext p:last-child{
+		font-size: 14px;
+		margin-top: 5px;
+		float:right;
+	}
+
+   }

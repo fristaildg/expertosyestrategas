@@ -1,0 +1,81 @@
+@media (min-width: 1366px){
+
+	#header{
+		background-size: 50%;
+		color: #231F20;
+		padding: 60px;
+		display: inline-block;
+		
+	}
+    
+
+   h1{
+   		
+	    font-size: 70px;
+	    margin-top: 1px;
+	    padding-left: 119px;
+   }
+
+   h2{
+   		font-size: 45px;
+   }
+
+   h3{
+   	   
+	    padding-left: 132px;
+	
+   }
+   p{
+   		font-size: 21px;
+   }
+
+   .caja-item-blanca p{
+		font-size: 18px;
+		padding: 0 20px;
+	}
+
+	.caja-item-blanca img {
+		width: 55px;
+		height: 55px;
+	}
+
+   .nav{
+	   	max-width: 1270px;
+	   	margin: 0 auto;
+   }
+
+	.menu-desktop a{
+		color: #231F20;
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.menu-desktop li{
+		display: inline-block;
+	}
+
+	 #header p{
+	 	
+		padding: 0 228px 102px 110px;
+		font-size: 18px
+	 }
+
+	 p#somos {
+		padding: 128px 0 0 112px;
+   		margin: 0;
+   		color: #00A486;
+	}
+	
+	.logo{
+		width: 140px;
+
+	}
+
+	.footer-contenedor{
+		max-width: 1270px;
+		margin: 0 auto;
+	}
+
+	
+
+   }

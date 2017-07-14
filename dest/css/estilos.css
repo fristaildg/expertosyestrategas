@@ -4,6 +4,7 @@
 /* acaempieza el codigo */
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #231F20;
 }
 
 #header {
@@ -71,7 +72,8 @@ p{
 	padding: 0 6vw;
 }
 
-span{
+span {
+
 	font-weight: bold;
 }
 
@@ -149,9 +151,9 @@ footer img{
 	margin: 2vw;
 }
 
-footer img:last-of-type {
+.footer-der img {
 	display: block;
-	width: 40vw;
+	width: 45vw;
     margin: 5vw auto;
 }
 
@@ -170,6 +172,17 @@ a{
 	font-weight: 700;
 	color: #8600ED;
 }
+.equipotablet{
+	display: none;
+}
+.equipo-desktop{
+		display: none;
+}
+
+
+	.somos{
+		display: none;
+	}
 
  /*	
  @media screen and (max-width: 1000px){
