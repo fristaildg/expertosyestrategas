@@ -21,6 +21,12 @@ body{
 	padding: 0;
 }
 
+#header.servicios {
+	background-image: url(../../assets/img/portada-2.png);
+	background-size: 250%;
+	height: 80vw;
+}
+
 .menu-desktop li {
 	display: none;
 }
@@ -180,9 +186,43 @@ a{
 }
 
 
-	.somos{
-		display: none;
-	}
+#somos{
+	display: none;
+}
+
+.servicios-mobile h4{
+	margin:0 0 0 0;
+
+}
+
+.fotos-servicios{
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:5vw;
+	padding:2vw;
+}
+
+h5 {
+	font-size:6vw;
+	color: #ffffff;
+	margin-left: 7vw;
+
+}
+
+.fotos-servicios p{
+	color: #ffffff;
+
+}
+
+.fotos-servicios .cita{
+	font-style: italic; 
+	color: #00A486;
+
+}
+.fotos-servicios .ver-mas {
+	color: #00A486;
+	text-align: right;
+}
 
  /*	
  @media screen and (max-width: 1000px){

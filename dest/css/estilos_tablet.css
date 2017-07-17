@@ -31,6 +31,13 @@
 		margin-bottom: 18vw;
 	}
 
+	#header.servicios {
+	background-image: url(../../assets/img/portada-2.png);
+	background-size: cover;
+	height: 50vw;
+	margin-bottom: 4vw;
+}
+
 	.logo {
 		width: 18vw;
 	}
@@ -151,4 +158,14 @@
 	.somos{
 		display: none;
 	}
+
+	.fotos-servicios{
+		padding: 1vw;
+	}
+
+	.fotos-servicios h5{
+		margin: 7vw 0 0 7vw;
+		font-size: 4.5vw;
+	}
+
 }

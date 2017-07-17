@@ -14,8 +14,14 @@ gulp.task("css", function() {
 		.pipe(browserSync.reload({stream:true}))
 });
 
+gulp.task("html", function() {
+	return gulp.src("./*.html")
+		.pipe(browserSync.reload({stream:true}))
+});
+
 gulp.task("watch", function() {
 	gulp.watch("./dest/css/*.css", ["css"]);
+	gulp.watch("./*.html", ["html"]);
 });
 
 gulp.task("arrancar", ["sync", "watch"]);
