@@ -85,13 +85,14 @@ span {
 
 
 /*Aca empieza el slidechow*/
-.caja-item-blanca{
+/*.caja-item-blanca{
 	display: none;
-}
+}*/
 
 .caja-item-verde{
 	background: #00A486;
 	padding: 10vw;
+	height: 70vw;
 }
 
 .caja-item-verde img{
@@ -110,7 +111,7 @@ span {
 
 .flechas img{
 	width: 6vw;
-    margin: 0 4vw 6vw 6vw;
+  margin: 0 4vw 6vw 6vw;
 }
 
 h4{

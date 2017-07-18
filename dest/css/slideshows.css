@@ -1,0 +1,34 @@
+#sliderIconos {
+	position: relative;
+}
+
+#sliderIconos .slick-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 0;
+	color: transparent;
+	z-index: 3;
+}
+
+#sliderIconos .slick-prev {
+	left: 3vw;
+}
+
+#sliderIconos .slick-next {
+	right: 3vw;
+}
+
+#sliderIconos .slick-arrow:before {
+	display: block;
+	width: 5vw;
+}
+
+#sliderIconos .slick-prev:before {
+	content: url('../../assets/img/flecha2_blanca.svg');
+}
+
+#sliderIconos .slick-next:before {
+	content: url('../../assets/img/flecha1_blanca.svg');
+}
+

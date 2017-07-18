@@ -4,10 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Expertos & Estrategas</title>
 	<link rel="stylesheet" href="dest/css/foundation.css">
+	<link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="dest/css/estilos.css">
 	<link rel="stylesheet" href="dest/css/estilos_tablet.css">
 	<link rel="stylesheet" href="dest/css/estilos_desktop.css">
 	<link rel="stylesheet" href="dest/css/estilos_desktop_large.css">
+	<link rel="stylesheet" href="dest/css/slideshows.css">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Source+Sans+Pro:400,600,700" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -51,54 +53,56 @@
 					<p>Porque manejamos técnicas innovadoras para llegarle a sus públicos y permear en ellos el mensaje, empleando
 					<span>herramientas efectivas y creativas.</span></p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="small-12 medium-6 columns">
-					<div class="caja-item-verde">
-						<img src="assets/img/Artboard10-blanco.svg" alt="televisor">
-						<p>Hay interacción en vivo simulando un programa de radio.</p>						
-					</div>
-				</div>
 			</div>	
-			<div class="row medium-up-3 large-up-5 caja-principal">
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard10.svg" alt="radio">
+			<div class="row small-up-1 medium-up-3 large-up-5 caja-principal" id="sliderIconos">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard10.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard10-blanco.svg" alt="televisor">
 						<p>Hay interacción en vivo simulando un programa de radio.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard11.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard11.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard22.svg" alt="radio">
 						<p>Todos jugamos "Quién quiere ser Millonario".</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard12.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard12.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard23.svg" alt="radio">
 						<p>Enseñamos el trabajo en equipo a partir del juego.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard13.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard13.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard24.svg" alt="radio">
 						<p>Usamos técnicas para directivos "Lego Serious Play".</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard14.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard14.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard25.svg" alt="radio">
 						<p>Realizamos Charlas a través de la música.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard15.svg" alt="radio">
-						<p>Realizamos podcasts de su empresa.</p>	
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard15.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard26.svg" alt="radio">
+						<p>Realizamos podcasts de su empresa.</p>
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard16.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard16.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard27.svg" alt="radio">
 						<p>Realizar un Stand Up managment siempre es alternativa.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard17.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard17.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard28.svg" alt="radio">
 						<p>Creamos estrategias en redes sociales.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard18.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard18.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard29.svg" alt="radio">
 						<p>Talleres creativos según sus necesidades.</p>	
 				</div>
-				<div class="columns caja-item-blanca">
-						<img src="assets/img/Artboard19.svg" alt="radio">
+				<div class="columns caja-item-verde">
+						<img class="show-for-medium" src="assets/img/Artboard19.svg" alt="radio">
+						<img class="hide-for-medium" src="assets/img/Artboard30.svg" alt="radio">
 						<p>Realizamos videocasts de su empresa.</p>	
 				</div>
 			</div>		
@@ -208,5 +212,8 @@
 		</div>
 		
 	</footer>
+	<script src="node_modules/slick-carousel/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+	<script src="dest/app.js"></script>
 </body>
 </html>
