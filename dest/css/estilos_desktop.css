@@ -7,6 +7,14 @@
 		display: inline-block;
 		
 	}
+
+	#header.servicios {
+	background-image: url(../../assets/img/portada-2.png);
+	margin-bottom: 4px;
+	background-size: 100%;
+	display: block;
+	height: 400px;
+	}
     
    h1{
    		display: block;
@@ -167,5 +175,41 @@
    		color: #00A486;
 	}
 
+	.contenedor-fotos-s{
+		display: inline-block;
+		
+	
+	}
+
+	.fotos-servicios{
+		border: white 5px solid;
+		float: left;	
+		width: 25%;
+		padding: 70px 25px 25px 25px;
+		margin: 0;
+		height: 650px;
+	}
+
+	.fotos-servicios h5{
+		font-size: 21px;
+		margin: 2px;
+	}
+
+	
+	.fotos-servicios p{
+		margin: 35px 0;
+		padding: 0;
+	}
+
+	p.cita{
+		padding: 0;
+		margin: 5px 0px;
+	}
+	
+
+	
+	.menu-desktop a{
+		color: #ffffff;
 
 }
+	
