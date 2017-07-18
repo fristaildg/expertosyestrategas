@@ -48,13 +48,13 @@
 	   	margin: 0 auto;
    }
 
-	.menu-desktop a{
+	#menu-desktop a{
 		color: #231F20;
 		font-weight: 400;
 		font-size: 16px;
 	}
 
-	.menu-desktop li{
+	#menu-desktop li{
 		display: inline-block;
 	}
 
@@ -79,7 +79,14 @@
 		max-width: 1270px;
 		margin: 0 auto;
 	}
-
 	
+	.menu-servicios a{
+		color: #ffffff;
+
+	}
+	
+	.fotos-servicios{
+		height: 580px;
+	}
 
    }

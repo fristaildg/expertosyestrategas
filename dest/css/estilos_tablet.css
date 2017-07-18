@@ -42,17 +42,17 @@
 		width: 18vw;
 	}
 
-	.menu-desktop {
+	#menu-desktop {
 		float: right;
 	}
 
-	.menu-desktop li{
+	#menu-desktop li{
 		display: inline-block;
 		margin-left: 5vw;
 	
 	}
 
-	.menu-desktop a{
+	#menu-desktop a{
 		color: #ffffff;
 
 	}

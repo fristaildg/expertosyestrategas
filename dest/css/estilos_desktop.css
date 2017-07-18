@@ -55,14 +55,14 @@
 
 	}
 
-	.menu-desktop a{
+	#menu-desktop a{
 		color: #231F20;
 		font-weight: 400;
 		font-size: 12px;
 
 	}
 
-	.menu-desktop li{
+	#menu-desktop li{
 		display: inline-block;
 		margin-left: 80px;
 	}
@@ -182,6 +182,7 @@
 	}
 
 	.fotos-servicios{
+		position: relative;
 		border: white 5px solid;
 		float: left;	
 		width: 25%;
@@ -205,11 +206,20 @@
 		padding: 0;
 		margin: 5px 0px;
 	}
-	
 
+	.ver-mas{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 35px 20px 35px 0;
+
+	}
 	
-	.menu-desktop a{
+	#menu-desktop.menu-servicios a{
 		color: #ffffff;
 
+	}
+
+	
 }
 	

@@ -27,7 +27,7 @@ body{
 	height: 80vw;
 }
 
-.menu-desktop li {
+#menu-desktop li {
 	display: none;
 }
 
@@ -222,6 +222,7 @@ h5 {
 .fotos-servicios .ver-mas {
 	color: #00A486;
 	text-align: right;
+	font-weight: lighter;
 }
 
  /*	
