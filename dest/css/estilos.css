@@ -137,11 +137,12 @@ h4{
   width: 100%;
 }
 
- .equipo p{
- 	color: #ffffff;
- 	font-weight: 400;
- 	margin: 4vw 2vw;
- }
+.equipo p{
+	color: #ffffff;
+	font-weight: 400;
+	margin: 4vw 2vw;
+}
+
 footer{
 	background-color: #00A486;
     margin-top: 20vw;

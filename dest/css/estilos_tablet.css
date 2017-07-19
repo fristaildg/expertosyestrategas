@@ -90,14 +90,6 @@
 	  margin: 0 0 3vw 6vw;
 	}
 
-	.equipomobile {
-		display: none;
-	}
-
-	.equipotablet{
-		display: inline-block;
-	}
-
 	.equipo p{
 	 	color: #ffffff;
 	 	font-weight: 400;
