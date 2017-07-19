@@ -103,16 +103,9 @@
 
 	.flechas img{
 		width: 24px;
-	    margin: 0 15px 30px 60px;
-	    padding: 0;
-	}
-	
-	.equipotablet{
-		display: none;
-	}
-
-	.equipo-desktop{
-		display: block;
+    margin: 0 15px 30px 60px;
+    padding: 0;
+    cursor: pointer;
 	}
 
 	.equipo p{

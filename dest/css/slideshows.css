@@ -1,3 +1,4 @@
+/*Slider de íconos*/
 #sliderIconos {
 	position: relative;
 }
@@ -31,4 +32,14 @@
 #sliderIconos .slick-next:before {
 	content: url('../../assets/img/flecha1_blanca.svg');
 }
+/*----------------------*/
+
+/*Slider de Equipo*/
+#sliderEquipo {
+	outline: none;
+}
+
+
+
+
 
