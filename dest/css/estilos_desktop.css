@@ -108,6 +108,10 @@
     cursor: pointer;
 	}
 
+	.equipo {
+		overflow: hidden;
+	}
+
 	.equipo p{
 	 	color: #ffffff;
 	 	font-weight: 700;
@@ -115,6 +119,20 @@
 	 	font-size: 15px;
 	 	padding: 0;
 	 	text-align: center;
+ 	}
+
+ 	.equipo figcaption {
+ 		height: 100%;
+ 		transform: translateY(86%);
+ 		transition: transform 0.2s ease-in-out;
+ 	}
+
+ 	.equipo:hover figcaption {
+ 		transform: translateY(0);
+ 	}
+
+ 	.equipo .descripcion {
+ 		display: block;
  	}
 
 	footer{

@@ -62,12 +62,22 @@ $(document).ready(function() {
 		var self = $(this);
 		var descripcion = self.find($('.descripcion'));
 
-		self.toggleClass('clickeado');
-		descripcion.fadeToggle('fast');		
+		if($(window).width() < 1024) {
+			self.toggleClass('clickeado');
+			descripcion.fadeToggle('fast');					
+		}
 	});
 
 	$('.equipo').find($('a')).click(function(event) {
 		event.stopPropagation();
 		// return false;
+	});
+
+	$(document).on('closing', '.remodal', function() {
+
+		if($(window).width() < 1024) {
+			$('.equipo').removeClass('clickeado');
+			$('.equipo').find($('.descripcion')).fadeOut('fast');			
+		}
 	});
 });

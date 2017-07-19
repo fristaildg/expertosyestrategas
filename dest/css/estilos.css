@@ -146,6 +146,7 @@ h4{
 	display: block;
 	text-align: right;
 	margin: 2vw;
+	cursor: pointer;
 }
 
 .equipo.clickeado figcaption{
