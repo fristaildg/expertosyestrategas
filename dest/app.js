@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+	// Configuración de los sliders
 	
 	$('#sliderIconos').slick({
 		mobileFirst: true,	
@@ -53,5 +55,19 @@ $(document).ready(function() {
 				}
 			}
 		]
+	});
+
+	// Click en los miembros del equipo
+	$('.equipo').click(function() {
+		var self = $(this);
+		var descripcion = self.find($('.descripcion'));
+
+		self.toggleClass('clickeado');
+		descripcion.fadeToggle('fast');		
+	});
+
+	$('.equipo').find($('a')).click(function(event) {
+		event.stopPropagation();
+		// return false;
 	});
 });

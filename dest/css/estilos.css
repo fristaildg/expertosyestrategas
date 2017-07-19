@@ -135,6 +135,36 @@ h4{
   position: absolute;
   bottom: 0;
   width: 100%;
+  transition: height 0.2s ease-in-out;
+}
+
+.equipo .descripcion {
+	display: none;
+}
+
+.equipo .descripcion a{
+	display: block;
+	text-align: right;
+	margin: 2vw;
+}
+
+.equipo.clickeado figcaption{
+	height: 100%;
+}
+
+.equipo .popup {
+	display: none;
+	position: absolute;
+	background-color: lightgray;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.equipo .popup p {
+	color: black;
 }
 
 .equipo p{
