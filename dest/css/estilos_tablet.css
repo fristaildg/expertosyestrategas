@@ -32,34 +32,11 @@
 	}
 
 	#header.servicios {
-	background-image: url(../../assets/img/portada-2.png);
-	background-size: cover;
-	height: 50vw;
-	margin-bottom: 4vw;
-}
-
-	.logo {
-		width: 18vw;
-	}
-
-	#menu-desktop {
-		float: right;
-	}
-
-	#menu-desktop li{
-		display: inline-block;
-		margin-left: 5vw;
-	
-	}
-
-	#menu-desktop a{
-		color: #ffffff;
-
-	}
-
-	.hamburger{
-		display: none;
-	}
+		background-image: url(../../assets/img/portada-2.png);
+		background-size: cover;
+		height: 50vw;
+		margin-bottom: 4vw;
+	}	
 
 	/*.caja-item-verde {
 		display: none;

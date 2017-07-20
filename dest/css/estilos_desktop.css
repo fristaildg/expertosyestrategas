@@ -32,7 +32,7 @@
 
 
    h3{
-   	    width: 50%;
+   	  width: 50%;
 	    display: block;
 	    font-size: 19px;
     	margin: 0 20px 20px;
@@ -55,19 +55,7 @@
 
 	}
 
-	#menu-desktop a{
-		color: #231F20;
-		font-weight: 400;
-		font-size: 12px;
-
-	}
-
-	#menu-desktop li{
-		display: inline-block;
-		margin-left: 80px;
-	}
-
-	 #header p{
+	#header p{
 	 	width: 50%;
 		display: block;
 	 	color: #231F20;
@@ -77,14 +65,7 @@
 	 	padding-left: 56px;
 	 	margin-bottom: 120px;
 	 	padding-right: 30px;
-	 }
-	
-	.logo{
-		width: 130px;
-		
-	}
-
-	
+	}	
 
 	.caja-item-verde img {
 		width: 50px;
@@ -124,11 +105,12 @@
  	.equipo figcaption {
  		height: 100%;
  		transform: translateY(86%);
- 		transition: transform 0.2s ease-in-out;
+ 		transition: all 0.2s ease-in-out;
  	}
 
  	.equipo:hover figcaption {
  		transform: translateY(0);
+ 		padding-top: 30px;
  	}
 
  	.equipo .descripcion {
@@ -182,8 +164,8 @@
 
 	p#somos {
 		padding:0 0 0 60px;
-   		margin: 30px 0 0 0;
-   		color: #00A486;
+ 		margin: 100px 0 0 0;
+ 		color: #00A486;
 	}
 
 	.contenedor-fotos-s{
@@ -225,12 +207,6 @@
 		margin: 35px 20px 35px 0;
 
 	}
-	
-	#menu-desktop.menu-servicios a{
-		color: #ffffff;
-
-	}
-
 	
 }
 	

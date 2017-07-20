@@ -80,4 +80,44 @@ $(document).ready(function() {
 			$('.equipo').find($('.descripcion')).fadeOut('fast');			
 		}
 	});
+
+	// Menu móvil
+	var hamb = $('.hamburger');
+	var menu = $('#menu-desktop');
+	var menuItem = menu.find($('li > a'));
+
+	hamb.click(function() {
+
+		if($(window).width() < 768) {
+			menu.toggleClass('abierto');
+			$(this).toggleClass('abierto');
+			$('body').toggleClass('menu-abierto');
+		}
+	});
+
+	menuItem.click(function() {
+
+		if($(window).width() < 768) {
+			menu.removeClass('abierto');
+			hamb.removeClass('abierto');
+			$('body').removeClass('menu-abierto');
+		}		
+	});
+
+	// Menu menu-desktop
+	var nav = $('.nav');
+	$(document).on('scroll', function() {
+		if($(document).scrollTop() > 60) {
+			nav.addClass('scrolleado');
+		} else {
+			nav.removeClass('scrolleado');
+		};
+
+		if($(document).scrollTop() > 200) {
+			nav.removeClass('scrolleado');
+			nav.addClass('sticky');
+		} else {
+			nav.removeClass('sticky');
+		};
+	})
 });

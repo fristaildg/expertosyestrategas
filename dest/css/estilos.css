@@ -7,6 +7,10 @@ body{
 	color: #231F20;
 }
 
+body.menu-abierto {
+	overflow: hidden;
+}
+
 #header {
 	background-image:url(../../assets/img/portada.png);
 	background-repeat: no-repeat;
@@ -27,34 +31,12 @@ body{
 	height: 80vw;
 }
 
-#menu-desktop li {
-	display: none;
-}
-
-.hamburger{
-	float: right;
-	display: block;
-}
-
-.lineas{
-	height: 1.3vw;
-	width: 8vw;
-	background-color: #ffffff;
-	margin: 1.3vw;
-	border-radius: 15px;
-}
-
-.logo{
-	width: 24vw;
- }
-
-
- h1 {
+h1 {
 	font-family: 'Abril Fatface', cursive;
-    font-size: 14vw;
-    font-weight: lighter;
-    margin: 12vw 0 0 0;
-    line-height: 1.2;
+  font-size: 14vw;
+  font-weight: lighter;
+  margin: 12vw 0 0 0;
+  line-height: 1.2;
 }
 h2{
 	font-weight: 700;
