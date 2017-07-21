@@ -141,4 +141,36 @@
 		font-size: 4.5vw;
 	}
 
+	.ver-mas {
+		display: block;
+		color: #00A486;
+		font-size: 3vw;
+   		text-align: right;
+   	 	font-weight: lighter;
+    	margin: 0 8vw 5vw 0;
+	}
+
+	.equipo p{
+		color: #ffffff;
+		font-weight: 400;
+		margin: 1vw 2vw;
+		padding:0 2vw;
+	}
+
+	
+	.equipo.clickeado figcaption{
+		height: 100%;
+		padding-top: 8vw;
+	}
+	
+	.descripcion p{
+		font-size: 2.3vw;
+		padding: 0 2vw;
+		margin-top: 3vw;
+	
+	}
+	
+	.equipo .descripcion a{
+		margin: 0 7vw 3vw 0;
+	}
 }

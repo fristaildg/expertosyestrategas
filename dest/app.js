@@ -44,14 +44,13 @@ $(document).ready(function() {
 					slidesToShow: 4,
 					slidesToScroll: 1,
 					centerMode: true,
-					autoplay: true
+					autoplay: false
 				}
 			},
 			{
 				breakpoint: 1699,
 				settings: {
-					slidesToShow: 6,
-					autoplay: true
+					slidesToShow: 6
 				}
 			}
 		]

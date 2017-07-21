@@ -154,7 +154,7 @@
 		perspective: 800px;
 		transform-style: preserve-3d;
 		position: relative;
-		width: 32px;
+		width: 56px;
 		height: 18px;
 		display: block;
 	}
@@ -162,7 +162,7 @@
 	#menu-desktop ul li a .item-dorso,
 	#menu-desktop ul li a .item-frente {
 		font-weight: 400;
-		width: 32px;
+		width: 56px;
 		height: 18px;
 		font-size: 12px;
 		position: absolute;

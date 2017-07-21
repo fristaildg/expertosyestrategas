@@ -84,9 +84,9 @@
 
 	.flechas img{
 		width: 24px;
-    margin: 0 15px 30px 60px;
-    padding: 0;
-    cursor: pointer;
+    	margin: 0 15px 30px 60px;
+    	padding: 0;
+    	cursor: pointer;
 	}
 
 	.equipo {
@@ -110,11 +110,18 @@
 
  	.equipo:hover figcaption {
  		transform: translateY(0);
- 		padding-top: 30px;
+ 		padding: 20px;
+ 	}
+ 	.equipo:hover figcaption p {
+ 		text-align: left;
  	}
 
  	.equipo .descripcion {
  		display: block;
+ 	}
+
+ 	.equipo .descripcion a{
+ 		margin: 0px 25px 21px 0;
  	}
 
 	footer{
@@ -205,8 +212,21 @@
 		bottom: 0;
 		right: 0;
 		margin: 35px 20px 35px 0;
+		font-size: 16px;
+
+	}
+	#menu-desktop.menu-servicios a{
+		color: #ffffff;
 
 	}
 	
+	.descripcion p{
+		font-size: 16px;
+		margin-top: 12px;
+		margin-left: 0;
+		font-weight: lighter;
+		text-align: left;
+	
+	}
 }
 	
