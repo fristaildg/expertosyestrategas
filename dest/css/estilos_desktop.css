@@ -228,5 +228,28 @@
 		text-align: left;
 	
 	}
+
+	.remodal img{
+		width: 200px;
+		margin-right: 20px;
+	}
+	
+
+	.remodal h3{
+		font-size: 21px;
+   		float: left;
+    	text-align: left;
+}
+	}
+
+	.remodal p{
+		margin-top: 45px;
+		font-size: 16px;
+		
+	}
+
+	.remodal-close:before {
+		font-size: 30px;
+	}
 }
 	
