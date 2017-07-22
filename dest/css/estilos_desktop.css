@@ -177,29 +177,41 @@
 
 	.contenedor-fotos-s{
 		display: inline-block;
-		
-	
+		text-align: center;
 	}
 
-	.fotos-servicios{
-		position: relative;
-		border: white 5px solid;
-		float: left;	
-		width: 25%;
-		padding: 70px 25px 25px 25px;
-		margin: 0;
-		height: 650px;
+	.servicio {
+		/*float: left;	*/
+		display: inline-block;
+		box-sizing: border-box;
+		width: 24.3vw;
+		height: 550px;
+		min-height: auto;
+		margin: 0;		
 	}
 
-	.fotos-servicios h5{
+	.servicio .fotos-servicios,
+	.servicio .dorso-servicios {
+		width: 25vw;		
+		border: white 10px solid;
+		text-align: left;
+	}
+
+	.servicio .fotos-servicios{
+		/*position: relative;*/
+		padding: 70px 20px 20px 20px;
+	}
+
+	.servicio .fotos-servicios h5{
 		font-size: 21px;
 		margin: 2px;
 	}
 
 	
-	.fotos-servicios p{
+	.servicio .fotos-servicios p{
 		margin: 35px 0;
 		padding: 0;
+		font-size: 16px;
 	}
 
 	p.cita{
@@ -213,7 +225,7 @@
 		right: 0;
 		margin: 35px 20px 35px 0;
 		font-size: 16px;
-
+		cursor: pointer;
 	}
 	#menu-desktop.menu-servicios a{
 		color: #ffffff;

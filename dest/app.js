@@ -119,4 +119,10 @@ $(document).ready(function() {
 			nav.removeClass('sticky');
 		};
 	})
+
+	// Fotos servicios
+	var servicio = $('.servicio');
+	servicio.click(function() {
+		$(this).toggleClass('clickeado');
+	});
 });

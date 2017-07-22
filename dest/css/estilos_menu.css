@@ -35,6 +35,10 @@
 	font-size: 8vw;
 }
 
+#menu-desktop ul li a .item-dorso {
+	display: none;
+}
+
 .hamburger{
 	float: right;
 	display: block;
@@ -112,9 +116,14 @@
 @media (min-width: 1270px) {
 
 	.nav {
-		left: 0;
+		left: 50%;
+		transform: translateX(-50%);
 		width: 100%;
 		position: absolute;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		z-index: 1000;
 	}
 
 	.nav.scrolleado {
@@ -123,11 +132,11 @@
 
 	.nav.sticky {
 		transition: all 0.2s ease-in-out;
-		background-color: #00A486;
+		background-color: rgba(255, 255, 255, 0.8);
 		position: fixed;
 		top: 0;
 		opacity: 0;
-		transform: translateY(-10px);
+		transform: translate(-50%, -10px);
 		padding: 0;
 	}
 
@@ -140,7 +149,7 @@
 	}
 
 	.nav.sticky:hover {
-		transform: translateY(0);
+		transform: translate(-50%, 0);
 		opacity: 1;
 	}
 
@@ -154,26 +163,31 @@
 		perspective: 800px;
 		transform-style: preserve-3d;
 		position: relative;
-		width: 56px;
+		width: 67px;
 		height: 18px;
 		display: block;
+	}
+
+	#menu-desktop ul li a .item-dorso {
+		background-color: #00A486;
+		color: white;
 	}
 
 	#menu-desktop ul li a .item-dorso,
 	#menu-desktop ul li a .item-frente {
 		font-weight: 400;
-		width: 56px;
-		height: 18px;
 		font-size: 12px;
 		position: absolute;
 		top: 0;
 		left: 0;
+		padding: 5px;
 		backface-visibility: hidden;
 		transition: transform 0.2s ease-in-out;
 	}
 
 	#menu-desktop ul li a .item-dorso {
 		transform: rotateY(-180deg);
+		display: inline-block;
 	}	
 
 	#menu-desktop ul li a:hover .item-frente {
@@ -191,11 +205,19 @@
 	.nav.sticky .logo {
 		width: 90px;
 		margin-top: 8px;
+		opacity: 0;
 	}
 
-	#menu-desktop.menu-servicios a{
+	#menu-desktop.menu-servicios ul li a span{
 		color: #ffffff;
+	}
 
+	.nav.sticky #menu-desktop.menu-servicios ul li a span{
+		color: black;
+	}
+
+	.nav.sticky #menu-desktop.menu-servicios ul li:hover a span {
+		color: white;
 	}
 }
 
@@ -205,6 +227,14 @@
    	max-width: 1270px;
    	margin: 0 auto;
  	}
+
+ 	.nav.sticky:hover {
+ 		max-width: 100vw; 		
+	}
+
+	.nav.sticky:hover #menu-desktop {
+		margin-right: 400px;
+	}
 
 	#menu-desktop a{
 		color: #231F20;

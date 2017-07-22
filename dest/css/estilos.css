@@ -222,11 +222,55 @@ a{
 
 }
 
-.fotos-servicios{
+.servicio {
+	margin:5vw auto;	
+	position: relative;
+	perspective: 800px;
+	transform-style: preserve-3d;
+	min-height: 100vh;
+	width: 90vw;
+	display: block;
+}
+
+.servicio .fotos-servicios,
+.servicio .dorso-servicios {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	left: 0;
+	width: 90vw;
+	backface-visibility: hidden;	
+	transition: transform 0.4s ease-in-out;
+}
+
+.servicio .fotos-servicios{
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin:5vw;
 	padding:2vw;
+
+}
+
+.servicio .dorso-servicios {
+	background-color: #00A486;
+	color: white;
+	transform: rotateY(-180deg);
+}
+
+.servicio .dorso-servicios ul {
+	margin: 0;
+	/*padding: 0;*/
+}
+
+.servicio .dorso-servicios ul li p {
+	color: white;
+}
+
+.servicio.clickeado .fotos-servicios {
+	transform: rotateY(180deg);
+}
+
+.servicio.clickeado .dorso-servicios {
+	transform: rotateY(0);	
 }
 
 h5 {
