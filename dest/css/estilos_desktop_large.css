@@ -75,4 +75,22 @@
 	.ver-mas{
 		font-size: 18px;
 	}
-   }
+
+	.servicio .dorso-servicios ul li p {
+	    font-size: 16px;
+    	line-height: 1;
+
+	}
+	.servicio .dorso-servicios.interna ul li p {
+		line-height: 1.5;
+		font-size: 16px;
+
+	}
+
+	.servicio .dorso-servicios.organizacional ul li p {
+		line-height: 1.3;
+		font-size: 16px;
+
+	}
+
+}

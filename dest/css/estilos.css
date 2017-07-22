@@ -254,16 +254,39 @@ a{
 	background-color: #00A486;
 	color: white;
 	transform: rotateY(-180deg);
+	display: flex;
+	align-items: center;
 }
 
 .servicio .dorso-servicios ul {
 	margin: 0;
-	/*padding: 0;*/
+	padding-left: 9vw;
 }
 
 .servicio .dorso-servicios ul li p {
 	color: white;
+	margin: 0;
+	padding-left: .5vw;
+	padding-top: 1.7vw;
+	font-size: 5vw;
+	line-height: 1;
+
 }
+.servicio .dorso-servicios.interna ul li p {
+	padding-left: .5vw;
+	padding-top: 4vw;
+	line-height: 1.5;
+
+}
+
+.servicio .dorso-servicios.organizacional ul li p {
+	padding-left: 2vw;
+	padding-top: 5vw;
+	line-height: 1.5;
+	font-size: 5.2vw;
+
+}
+
 
 .servicio.clickeado .fotos-servicios {
 	transform: rotateY(180deg);

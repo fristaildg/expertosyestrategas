@@ -263,5 +263,38 @@
 	.remodal-close:before {
 		font-size: 30px;
 	}
+
+	.servicio .dorso-servicios ul {
+    	padding-left: 45px;
+	}
+
+	.servicio .dorso-servicios ul li p {
+	    padding-left: 1px;
+    	padding-top: 3px;
+    	font-size: 14px;
+    	line-height: 1;
+
+	}
+	.servicio .dorso-servicios.interna ul li p {
+		padding-left: 1px;
+		padding-top: 3px;
+		line-height: 1.5;
+		font-size: 14px;
+
+	}
+
+	.servicio .dorso-servicios.organizacional ul li p {
+		padding-left: 1px;
+		padding-top: 3px;
+		line-height: 1.3;
+		font-size: 14px;
+
+	}
+
+
+
 }
+
+
+
 	
