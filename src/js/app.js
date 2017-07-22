@@ -44,7 +44,7 @@ $(document).ready(function() {
 					slidesToShow: 4,
 					slidesToScroll: 1,
 					centerMode: true,
-					autoplay: false
+					autoplay: true
 				}
 			},
 			{
