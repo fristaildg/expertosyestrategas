@@ -8,7 +8,6 @@
 	width: 100%;
 	max-height: 0;
 	min-height: 0;
-	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -52,7 +51,6 @@
 	margin: 1.3vw;
 	border-radius: 15px;
 	opacity: 1;
-	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -61,13 +59,11 @@
 }
 
 .hamburger.abierto .lineas:nth-child(2) {
-	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .hamburger.abierto .lineas:last-child {
-	-webkit-transform: translateY(-2.5vw) rotate(-45deg);
-	        transform: translateY(-2.5vw) rotate(-45deg);
+	transform: translateY(-2.5vw) rotate(-45deg);
 }
 
 .logo{
@@ -121,19 +117,12 @@
 
 	.nav {
 		left: 50%;
-		-webkit-transform: translateX(-50%);
-		        transform: translateX(-50%);
+		transform: translateX(-50%);
 		width: 100%;
 		position: absolute;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-pack: justify;
-		    -ms-flex-pack: justify;
-		        justify-content: space-between;
-		-webkit-box-align: start;
-		    -ms-flex-align: start;
-		        align-items: flex-start;
+		justify-content: space-between;
+		align-items: flex-start;
 		z-index: 1000;
 	}
 
@@ -142,14 +131,12 @@
 	}
 
 	.nav.sticky {
-		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		background-color: rgba(255, 255, 255, 0.8);
 		position: fixed;
 		top: 0;
 		opacity: 0;
-		-webkit-transform: translate(-50%, -10px);
-		        transform: translate(-50%, -10px);
+		transform: translate(-50%, -10px);
 		padding: 0;
 	}
 
@@ -162,8 +149,7 @@
 	}
 
 	.nav.sticky:hover {
-		-webkit-transform: translate(-50%, 0);
-		        transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
 		opacity: 1;
 	}
 
@@ -174,10 +160,8 @@
 
 	#menu-desktop ul li a{
 		color: #231F20;
-		-webkit-perspective: 800px;
-		        perspective: 800px;
-		-webkit-transform-style: preserve-3d;
-		        transform-style: preserve-3d;
+		perspective: 800px;
+		transform-style: preserve-3d;
 		position: relative;
 		width: 67px;
 		height: 18px;
@@ -197,28 +181,21 @@
 		top: 0;
 		left: 0;
 		padding: 5px;
-		-webkit-backface-visibility: hidden;
-		        backface-visibility: hidden;
-		-webkit-transition: -webkit-transform 0.2s ease-in-out;
-		transition: -webkit-transform 0.2s ease-in-out;
+		backface-visibility: hidden;
 		transition: transform 0.2s ease-in-out;
-		transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 	}
 
 	#menu-desktop ul li a .item-dorso {
-		-webkit-transform: rotateY(-180deg);
-		        transform: rotateY(-180deg);
+		transform: rotateY(-180deg);
 		display: inline-block;
 	}	
 
 	#menu-desktop ul li a:hover .item-frente {
-		-webkit-transform: rotateY(180deg);
-		        transform: rotateY(180deg);
+		transform: rotateY(180deg);
 	}
 
 	#menu-desktop ul li a:hover .item-dorso {
-		-webkit-transform: rotateY(0);
-		        transform: rotateY(0);
+		transform: rotateY(0);
 	}
 
 	.logo{

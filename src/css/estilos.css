@@ -1,5 +1,5 @@
 
-*{-webkit-box-sizing: border-box;box-sizing: border-box;}
+*{box-sizing: border-box;}
 
 /* acaempieza el codigo */
 body{
@@ -117,7 +117,6 @@ h4{
   position: absolute;
   bottom: 0;
   width: 100%;
-  -webkit-transition: height 0.2s ease-in-out;
   transition: height 0.2s ease-in-out;
 }
 
@@ -172,8 +171,7 @@ footer{
     margin-top: 20vw;
     text-align: center;
     padding: 10vw 0 10vw 0;
-    -webkit-box-shadow: inset 0 3vw 8vw #009277;
-            box-shadow: inset 0 3vw 8vw #009277;
+    box-shadow: inset 0 3vw 8vw #009277;
 }
 footer p{
 	font-weight: 400;
@@ -227,10 +225,8 @@ a{
 .servicio {
 	margin:5vw auto;	
 	position: relative;
-	-webkit-perspective: 800px;
-	        perspective: 800px;
-	-webkit-transform-style: preserve-3d;
-	        transform-style: preserve-3d;
+	perspective: 800px;
+	transform-style: preserve-3d;
 	min-height: 100vh;
 	width: 90vw;
 	display: block;
@@ -243,12 +239,8 @@ a{
 	height: 100%;
 	left: 0;
 	width: 90vw;
-	-webkit-backface-visibility: hidden;
-	        backface-visibility: hidden;	
-	-webkit-transition: -webkit-transform 0.4s ease-in-out;	
-	transition: -webkit-transform 0.4s ease-in-out;	
-	transition: transform 0.4s ease-in-out;	
-	transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+	backface-visibility: hidden;	
+	transition: transform 0.4s ease-in-out;
 }
 
 .servicio .fotos-servicios{
@@ -261,14 +253,9 @@ a{
 .servicio .dorso-servicios {
 	background-color: #00A486;
 	color: white;
-	-webkit-transform: rotateY(-180deg);
-	        transform: rotateY(-180deg);
-	display: -webkit-box;
-	display: -ms-flexbox;
+	transform: rotateY(-180deg);
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	align-items: center;
 }
 
 .servicio .dorso-servicios ul {
@@ -302,13 +289,11 @@ a{
 
 
 .servicio.clickeado .fotos-servicios {
-	-webkit-transform: rotateY(180deg);
-	        transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .servicio.clickeado .dorso-servicios {
-	-webkit-transform: rotateY(0);
-	        transform: rotateY(0);	
+	transform: rotateY(0);	
 }
 
 h5 {

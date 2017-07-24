@@ -104,15 +104,12 @@
 
  	.equipo figcaption {
  		height: 100%;
- 		-webkit-transform: translateY(86%);
- 		        transform: translateY(86%);
- 		-webkit-transition: all 0.2s ease-in-out;
+ 		transform: translateY(86%);
  		transition: all 0.2s ease-in-out;
  	}
 
  	.equipo:hover figcaption {
- 		-webkit-transform: translateY(0);
- 		        transform: translateY(0);
+ 		transform: translateY(0);
  		padding: 20px;
  	}
  	.equipo:hover figcaption p {
@@ -186,8 +183,7 @@
 	.servicio {
 		/*float: left;	*/
 		display: inline-block;
-		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		box-sizing: border-box;
 		width: 24.3vw;
 		height: 550px;
 		min-height: auto;

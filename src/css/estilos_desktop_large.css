@@ -1,0 +1,96 @@
+@media (min-width: 1700px){
+
+	#header{
+		background-size: 50%;
+		color: #231F20;
+		padding: 60px;
+		display: inline-block;
+		
+	}
+
+	#header.servicios {
+		height: 600px;
+	}
+    
+
+   h1{
+   		
+	    font-size: 70px;
+	    margin-top: 1px;
+	    padding-left: 119px;
+   }
+
+   h2{
+   		font-size: 45px;
+   }
+
+   h3{
+   	   
+	    padding-left: 132px;
+	
+   }
+   p{
+   		font-size: 21px;
+   }
+
+   .caja-item-verde p{
+		font-size: 18px;
+		padding: 0 20px;
+	}
+
+	.caja-item-verde img {
+		width: 55px;
+		height: 55px;
+	} 	
+
+	#header p{	 	
+		padding: 0 228px 102px 110px;
+		font-size: 18px
+	}
+
+	 p#somos {
+		padding: 200px 0 0 112px;
+   		margin: 0;
+   		color: #00A486;
+	}	
+
+	.footer-contenedor{
+		max-width: 1270px;
+		margin: 0 auto;
+	}
+
+	.contenedor-fotos-s {
+		margin-bottom: 30px;
+	}
+	
+	.servicio .fotos-servicios{
+		/*height: 580px;*/
+		padding: 70px 30px 30px 30px;
+	}
+
+	.servicio .fotos-servicios p {
+		font-size: 20px;
+	}
+	
+	.ver-mas{
+		font-size: 18px;
+	}
+
+	.servicio .dorso-servicios ul li p {
+	    font-size: 16px;
+    	line-height: 1;
+
+	}
+	.servicio .dorso-servicios.interna ul li p {
+		line-height: 1.5;
+		font-size: 16px;
+
+	}
+
+	.servicio .dorso-servicios.organizacional ul li p {
+		line-height: 1.3;
+		font-size: 16px;
+
+	}
+
+}
