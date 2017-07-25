@@ -72,7 +72,7 @@ span {
 }*/
 
 .caja-item-verde{
-	background: #00A486;
+	background: #1A1D1D;
 	padding: 10vw;
 	height: 70vw;
 }
@@ -95,11 +95,11 @@ span {
 
 .flechas img{
 	width: 6vw;
-  margin: 0 4vw 6vw 6vw;
+ 	 margin: 0 4vw 6vw 6vw;
 }
 
 h4{
-	color: #00A486;
+	color: #498A45;
 	font-weight: lighter;
 	padding: 0 6vw;
 	margin: 17vw 0 0 0;
@@ -132,7 +132,7 @@ h4{
 	text-align: right;
 	margin: 0 7vw 7vw 0;
 	cursor: pointer;
-	color: #00A486;
+	color: #498A45;
 	font-weight: lighter;
 }
 
@@ -167,11 +167,11 @@ h4{
 }
 
 footer{
-	background-color: #00A486;
+	background-color: #1A1D1D;
     margin-top: 20vw;
     text-align: center;
     padding: 10vw 0 10vw 0;
-    box-shadow: inset 0 3vw 8vw #009277;
+    box-shadow: inset 0 3vw 8vw #000000;
 }
 footer p{
 	font-weight: 400;
@@ -182,6 +182,12 @@ footer p{
 footer img{
 	width: 12vw;
 	margin: 2vw;
+}
+
+.footer-centro a{
+	font-size: 5vw;
+	color: #498A45;
+	
 }
 
 .footer-der img {
@@ -203,7 +209,7 @@ footer img{
 a{
 	text-decoration: none;
 	font-weight: 700;
-	color: #8600ED;
+	color: #FFD05D;
 }
 .equipotablet{
 	display: none;
@@ -251,7 +257,7 @@ a{
 }
 
 .servicio .dorso-servicios {
-	background-color: #00A486;
+	background-color: #498A45;
 	color: white;
 	transform: rotateY(-180deg);
 	display: flex;
@@ -310,13 +316,13 @@ h5 {
 
 .fotos-servicios .cita{
 	font-style: italic; 
-	color: #00A486;
+	color: #498A45;
 
 }
 
 .ver-mas {
 	display: block;
-	color: #00A486;
+	color: #498A45;
     text-align: right;
     font-weight: lighter;
     margin: 0 8vw 8vw 0;
@@ -328,7 +334,7 @@ h5 {
 }
 .remodal h3{
 	font-size: 6vw;
-	color: #00A486;
+	color: #498A45;
 	padding: 0;
 	margin: 0;
 }
@@ -340,14 +346,18 @@ h5 {
 }
 
 .remodal p span{
-	color: #00A486;
+	color: #498A45;
 	font-weight: lighter;
 } 
 
 .remodal-close:before {
-	color: #00A486;
+	color: #498A45;
 }
-
+ audio{
+ 	display: inline-block;
+ 	margin-bottom: 9vw;
+ 	width: 100%;
+ }
 
  /*	
  @media screen and (max-width: 1000px){

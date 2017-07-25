@@ -1,6 +1,6 @@
 #menu-desktop {
 	overflow: hidden;
-	background-color: #00A486;
+	background-color: #498A45;
 	position: fixed;
 	z-index: 998;
 	top: 0;
@@ -169,7 +169,7 @@
 	}
 
 	#menu-desktop ul li a .item-dorso {
-		background-color: #00A486;
+		background-color: #498A45;
 		color: white;
 	}
 

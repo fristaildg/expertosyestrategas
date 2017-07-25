@@ -72,6 +72,21 @@
 	 	font-weight: 400;
 	 	margin: 2vw 2vw;
  	}
+ 	.footer-centro{
+ 		width: 100%;
+ 	}
+
+ 	.footer-centro img{
+ 		display: block;
+ 		margin: 0 auto;
+ 		width: 8vw;
+ 	}
+ 	.footer-centro a{
+ 		display: inline-block;
+ 		font-size: 4vw;
+ 		margin: 3vw 0 5vw 0;
+ 		text-align: center;
+ 	}
 	
 	.footer-contenedor{
 		display: -webkit-box;
@@ -151,7 +166,7 @@
 
 	.ver-mas {
 		display: block;
-		color: #00A486;
+		color: #498A45;
 		font-size: 3vw;
    		text-align: right;
    	 	font-weight: lighter;
@@ -208,7 +223,7 @@
 	}
 
 	.remodal-close:before {
-		color: #00A486;
+		color: #498A45;
 		font-size: 6vw;
 	}
 	
