@@ -30,9 +30,16 @@
 #menu-desktop ul li a{
 	color: white;
 	display: block;
-	padding: 3vw 0;
-	font-weight: 400;
+	padding: 7vw 0;
 	font-size: 8vw;
+	text-align: left;
+	margin-left: 10vw;
+}
+
+#menu-desktop ul li a span{
+	font-weight: lighter;
+
+
 }
 
 #menu-desktop ul li a .item-dorso {
@@ -106,6 +113,7 @@
 		padding: 0;
 		font-weight: 700;
 		font-size: 16px;
+		margin: 0;
 	}
 
 	.hamburger{
