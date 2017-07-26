@@ -103,9 +103,9 @@
 		font-size: 16px;
 
 	}
-	 audio{
-	    padding: 0 237px 0 1004px;
-    	margin-bottom: 140px;
-	 }
+
+	audio{
+		margin-left: 52vw;
+	}
 
 }

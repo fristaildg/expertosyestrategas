@@ -316,7 +316,9 @@
 	 
 	 audio{
 	 	margin-bottom: 50px;
-	 	padding: 0 54px 0 635px ;
+	 	padding-right: 54px;
+	 	max-width: 557px;
+		margin-left: 50vw;
 	 }
 	
 }
