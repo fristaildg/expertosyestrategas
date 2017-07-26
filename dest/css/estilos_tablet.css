@@ -231,21 +231,22 @@
 		color: white;
 		margin: 0;
 		padding-left: .5vw;
-		padding-top: 1.7vw;
+		padding-top: 1vw;
 		font-size: 2vw;
 		line-height: 1;
 
 	}
 	.servicio .dorso-servicios.interna ul li p {
 		padding-left: .5vw;
-		padding-top: 4vw;
-		line-height: 1.5;
+		padding-top: 2vw;
+		line-height: 1.2;
 
 	}
 
 	.servicio .dorso-servicios.organizacional ul li p {
 		line-height: 1.5;
 		font-size: 2vw;
+		padding-top: 2vw;
 
 	}
 	
