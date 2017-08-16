@@ -41,6 +41,7 @@ gulp.task("html", function() {
 gulp.task("watch", function() {
 	gulp.watch("./src/css/*.css", ["css"]);
 	gulp.watch("./*.html", ["html"]);
+	gulp.watch("./src/js/app.js", ["js"]);
 });
 
 gulp.task("arrancar", ["sync", "watch"]);

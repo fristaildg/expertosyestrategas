@@ -343,6 +343,10 @@ h5 {
     margin: 0 8vw 8vw 0;
 }
 
+#player {
+	display: none;
+}
+
 .remodal img{
 	display: none;
 	
