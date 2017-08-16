@@ -315,26 +315,15 @@
 	}
 	 
 	audio{
-	margin-bottom: 11vw;
-	padding-right: 54px;
-	max-width: 557px;
-	margin-left: 50vw;
-	}
-
-	.video-modal {
-		width: 100%;
-		padding: 0;
-	}
-
-	.video-modal .remodal-close:before {
-		color: white;
+		margin-bottom: 11vw;
+		padding-right: 54px;
+		max-width: 557px;
+		margin-left: 50vw;
 	}
 
 	#player {
-		 width: 100%; 
-		/* height: 800px; */
-		display: block;
-	}	
+		height: 390px;
+	}
 }
 
 

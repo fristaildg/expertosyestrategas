@@ -1,10 +1,25 @@
 $(document).ready(function() {
+	// var url = window.location.href;
+	// var urlArray;
+	// var location;
+
+	// function setVideoCookie() {
+	// 	urlArray = url.split('/');
+	// 	location = urlArray[urlArray.length - 1];
+	// 	if(location != 'index.html') {
+	// 		document.cookie = 'videoVisto';
+	// 	}
+	// }
+
+	// setVideoCookie();
 
 	var videoModal = $('.video-modal').remodal();
 
 	setTimeout(function() {
-		videoModal.open();
-	}, 1500);
+		if(window.matchMedia('(min-width: 768px)').matches) {
+			videoModal.open();
+		}
+	}, 1500);	
 
 	// Configuración de los sliders
 	
@@ -149,8 +164,9 @@ function onYouTubeIframeAPIReady() {
 		playerVars: {
 			'rel': 0,
 			'showinfo': 0,
-			'controls': 0,
-			'modestbranding': 0
+			'controls': 1,
+			'modestbranding': 0,
+			'fs': 1
 		},
 		events: {
 			'onReady': onPlayerReady,
@@ -166,3 +182,9 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
 	console.log(event);
 }
+
+$(document).on('closing', '.remodal', function(e) {
+	if(player) {
+		player.stopVideo();
+	}
+});
